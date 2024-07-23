@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#employee-form {
+    text-align: center;
+    margin: 20px;
+}
+
+#employee-form input {
+    margin: 5px;
+}
+
+#employee-list {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
