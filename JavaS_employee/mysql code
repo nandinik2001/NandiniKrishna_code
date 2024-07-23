@@ -1,0 +1,36 @@
+-- Creating the database
+CREATE DATABASE employee_management;
+
+-- Use the newly created database
+USE employee_management;
+
+-- Create the employee table
+CREATE TABLE employee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(50),
+    phone VARCHAR(15),
+    department VARCHAR(50)
+);
+
+INSERT INTO employee (first_name, last_name, email, phone, department)
+VALUES ('Nandini', 'Krishna', 'nandini.k@example.com', '1234567890', 'Engineering');
+
+INSERT INTO employee (first_name, last_name, email, phone, department)
+VALUES ('Chris', 'Weav', 'chris.w@example.com', '1234567890', 'Engineering');
+
+INSERT INTO employee (first_name, last_name, email, phone, department)
+VALUES ('Jane', 'Winston', 'jane.w@example.com', '1234567890', 'Engineering');
+
+INSERT INTO employee (first_name, last_name, email, phone, department)
+VALUES ('Sanjana', 'Varma', 'sanj.v@example.com', '1234567890', 'Engineering');
+
+INSERT INTO employee (first_name, last_name, email, phone, department)
+VALUES ('Vineel', 'Reddy', 'vineel.r@example.com', '1234567890', 'Engineering');
+
+SELECT * FROM employee;
+
+UPDATE employee
+SET phone = '0987654321'
+WHERE id = 1;
