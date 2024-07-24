@@ -1,4 +1,4 @@
-# Simple Blog Platform
+# Blog Platform
 
 A simple blog platform developed using Spring Boot, Thymeleaf, Java, MySQL, HTML, CSS, and JavaScript. This project allows users to create, view, edit, and delete blog posts.
 
