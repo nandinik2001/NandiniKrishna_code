@@ -50,25 +50,25 @@ Open your web browser and navigate to http://localhost:8080/.<br>
 
 ## Project Structure
 blog-platform/
-├── src/main/java/com/example/employee123/
-│   ├── BlogPlatformApplication.java
-│   ├── model/
-│   │   └── Post.java
-│   ├── repository/
-│   │   └── PostRepository.java
-│   ├── service/
-│   │   └── PostService.java
-│   └── controller/
-│       └── PostController.java
-├── src/main/resources/
-│   ├── static/
-│   │   └── styles.css
-│   ├── templates/
-│   │   ├── index.html
-│   │   ├── new_post.html
-│   │   ├── edit_post.html
-│   │   └── view_post.html
-│   └── application.properties
+├── src/main/java/com/example/employee123/<br>
+│   ├── BlogPlatformApplication.java<br>
+│   ├── model/<br>
+│   │   └── Post.java<br>
+│   ├── repository/<br>
+│   │   └── PostRepository.java<br>
+│   ├── service/<br>
+│   │   └── PostService.java<br>
+│   └── controller/<br>
+│       └── PostController.java<br>
+├── src/main/resources/<br>
+│   ├── static/<br>
+│   │   └── styles.css<br>
+│   ├── templates/<br>
+│   │   ├── index.html<br>
+│   │   ├── new_post.html<br>
+│   │   ├── edit_post.html<br>
+│   │   └── view_post.html<br>
+│   └── application.properties<br>
 └── pom.xml
 
 
