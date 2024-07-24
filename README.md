@@ -1,6 +1,12 @@
-# ThreadsOFIndia (E-Commerce Website)
+# ThreadsOFBharat (E-Commerce Website)
 
-This project is an e-commerce application with a Spring Boot backend and an Angular frontend. The backend uses PostgreSQL as the database for storing cart items.
+This project aims to provide a marketplace for users to browse and purchase various items, including sarees, jewelry, and accessories.
+
+## Project Overview
+The application is built with a modern tech stack:<br>
+Frontend: Angular<br>
+Backend: Spring Boot<br>
+Database: PostgreSQL
 
 ## Prerequisites
 
