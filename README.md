@@ -6,7 +6,6 @@ This project is an e-commerce application with a Spring Boot backend and an Angu
 
 Before you begin, ensure you have met the following requirements:
 - Java 11 or higher
-- Node.js and npm
 - Angular CLI
 - PostgreSQL
 - Eclipse IDE (for backend development)
