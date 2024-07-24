@@ -1,27 +1,44 @@
-# ThreadsOfBharat
+# E-Commerce Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+This project is an e-commerce application with a Spring Boot backend and an Angular frontend. The backend uses PostgreSQL as the database for storing cart items.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before you begin, ensure you have met the following requirements:
+- Java 11 or higher
+- Node.js and npm
+- Angular CLI
+- PostgreSQL
+- Eclipse IDE (for backend development)
+- Visual Studio Code (for frontend development)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Backend (Spring Boot)
 
-## Build
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+2. **Set up PostgreSQL**
+   Still in the process
+3. **Project Structure**
+   Project Structure
+Entity Class: Defines the CartItem entity, which represents items in the cart.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+src/main/java/com/example/demo/entity/CartItem.java
+Repository Interface: Provides CRUD operations for CartItem entities.
 
-## Running unit tests
+src/main/java/com/example/demo/repository/CartItemRepository.java
+Service Class: Contains business logic for managing cart items.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+src/main/java/com/example/demo/service/CartItemService.java
+Controller Class: Exposes RESTful endpoints for cart item operations.
 
-## Running end-to-end tests
+src/main/java/com/example/demo/controller/CartItemController.java
+CORS Configuration: Configures Cross-Origin Resource Sharing (CORS) settings.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+src/main/java/com/example/config/WebConfig.java
+Application Properties: Contains configuration properties for the application.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+src/main/resources/application.properties 
