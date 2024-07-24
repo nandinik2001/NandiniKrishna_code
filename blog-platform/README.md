@@ -38,9 +38,37 @@ A simple blog platform developed using Spring Boot, Thymeleaf, Java, MySQL, HTML
 CREATE DATABASE blog_platform;<br>
 3. **Configure the database connection**:<br>
 Update the src/main/resources/application.properties file with your MySQL database connection details:<br>
-'spring.datasource.url=jdbc:mysql://localhost:3306/blog_platform'
-'spring.datasource.username=root'
-'spring.datasource.password=your_password'
-'spring.jpa.hibernate.ddl-auto=update'
-'spring.jpa.show-sql=true'
+'spring.datasource.url=jdbc:mysql://localhost:3306/blog_platform'<br>
+'spring.datasource.username=root'<br>
+'spring.datasource.password=your_password'<br>
+'spring.jpa.hibernate.ddl-auto=update'<br>
+'spring.jpa.show-sql=true'<br>
+4. **Build and run the application**:
+   You can run the application from Spring Tool Suite (STS) by right-clicking on the BlogPlatformApplication class and selecting Run As -> Spring Boot App
+5. **Access the application**:<br>
+Open your web browser and navigate to http://localhost:8080/.<br>
+
+## Project Structure
+blog-platform/
+├── src/main/java/com/example/employee123/
+│   ├── BlogPlatformApplication.java
+│   ├── model/
+│   │   └── Post.java
+│   ├── repository/
+│   │   └── PostRepository.java
+│   ├── service/
+│   │   └── PostService.java
+│   └── controller/
+│       └── PostController.java
+├── src/main/resources/
+│   ├── static/
+│   │   └── styles.css
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── new_post.html
+│   │   ├── edit_post.html
+│   │   └── view_post.html
+│   └── application.properties
+└── pom.xml
+
 
