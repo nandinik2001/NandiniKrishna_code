@@ -51,5 +51,5 @@ CORS Configuration: Configures Cross-Origin Resource Sharing (CORS) settings.<br
 Application Properties: Contains configuration properties for the application.
 src/main/resources/application.properties 
 
- **Set up PostgreSQL**:
+ **Set up PostgreSQL**:<br>
    Still in the process
