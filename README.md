@@ -30,7 +30,8 @@ SareesComponent: Shows a list of sarees available for purchase.<br>
 JewelryComponent: Displays various jewelry items.<br>
 AccessoriesComponent: Lists accessories.<br>
 CartComponent: Manages items added to the user's cart.<br>
-CheckoutComponent: Handles the checkout process.
+CheckoutComponent: Handles the checkout process.<br>
+
 **Backend (Spring Boot)**:<br>
 Entity Class: Defines the CartItem entity, which represents items in the cart.<br>
 `src/main/java/com/example/demo/entity/CartItem.java`
