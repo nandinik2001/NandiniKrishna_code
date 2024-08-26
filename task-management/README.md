@@ -14,12 +14,7 @@ This Task Management Website is a simple and intuitive web application that allo
 
 ## Installation
 
-No installation is required. Simply clone the repository and open the `index.html` file in a web browser.
-
-```bash
-git clone <repository_url>
-cd <repository_directory>
-open index.html
+No installation is required.
 
 ## Usage
 
@@ -45,9 +40,6 @@ open index.html
 
 - Use the sidebar to filter tasks by status (All, Completed, Pending), or to view tasks in different lists.
 
-### Tagging Tasks:
-
-- Use the "Tags" section in the sidebar to add or filter tasks by tags.
 
 ## Files
 
@@ -61,10 +53,3 @@ open index.html
 - **Styles:** Modify `styles.css` to change the appearance of the website, such as colors, fonts, and layout.
 - **JavaScript:** Customize the behavior of the application by editing `script.js`. For example, you can add more features like task deadlines, reminders, or priority settings.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
